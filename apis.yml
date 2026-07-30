@@ -1,8 +1,28 @@
 aid: maverick-protocol
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maverick-protocol.png
 name: Maverick Protocol
-description: 'Maverick Protocol is a company surfaced as a portfolio company of pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Maverick Protocol is a decentralized exchange (DEX) and automated market maker
+  (AMM) for EVM chains, live on Ethereum, Base, zkSync Era and other networks
+  through its dApp at app.mav.xyz. Its Dynamic Distribution AMM lets liquidity
+  providers concentrate and automatically shift liquidity as prices move, and its
+  veFlywheel and Boosted Positions direct MAV token incentives to pools. The
+  core protocol is a set of on-chain V1 and V2 Solidity contracts (Factory,
+  Pool, Router, Quoter, PoolLens, position and reward contracts) documented at
+  docs.mav.xyz, complemented by a public hosted Data API (v2-api.mav.xyz) that
+  returns 24-hour market pricing and volume tickers per chain. Surfaced in the
+  API Evangelist network from the Pantera Capital portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/maverick-protocol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +32,59 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
 tags:
 - Company
 - Crypto
-apis: []
+- DeFi
+- DEX
+- AMM
+- Blockchain
+- Market Data
+- Liquidity
+apis:
+- aid: maverick-protocol:maverick-protocol-latest-api
+  name: Maverick Protocol Latest API
+  description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
+  humanURL: https://docs.mav.xyz/technical-reference/maverick-v2/v2-api-documentation
+  baseURL: https://v2-api.mav.xyz
+  tags:
+  - Latest
+  properties:
+  - type: OpenAPI
+    url: openapi/maverick-protocol-latest-api-openapi.yml
+  - type: Documentation
+    url: https://docs.mav.xyz/technical-reference/maverick-v2/v2-api-documentation
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: LLMsTxt
+  url: llms/maverick-protocol-llms.txt
+- type: WellKnown
+  url: well-known/maverick-protocol-well-known.yml
+- type: Security
+  url: security/maverick-protocol-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/maverick-protocol-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/maverick-protocol-domain-security.yml
+- type: Documentation
+  url: https://docs.mav.xyz/
+- type: APIReference
+  url: https://docs.mav.xyz/technical-reference/maverick-v2/v2-api-documentation
+- type: GettingStarted
+  url: https://docs.mav.xyz/getting-started/the-maverick-v2-ui
+- type: GitHubOrganization
+  url: https://github.com/maverickprotocol
+- type: SignUp
+  url: https://app.mav.xyz/
 - type: Website
   url: https://www.mav.xyz/
