@@ -1,0 +1,194 @@
+# Maverick Docs
+
+## English
+
+- [Introducing Maverick](https://docs.mav.xyz/introducing-maverick.md)
+- [The Maverick V2 UI](https://docs.mav.xyz/getting-started/the-maverick-v2-ui.md): Whether you're brand new to Maverick or more familiar with the Maverick V1 UI, this page is intended to help you navigate the V2 UI and find all of the available features.
+- [Connect a Wallet](https://docs.mav.xyz/getting-started/connect-a-wallet.md)
+- [Choose a Network](https://docs.mav.xyz/getting-started/choose-a-network.md): This page explains how to switch between networks in Maverick's dApp.
+- [Approving Tokens](https://docs.mav.xyz/getting-started/approving-tokens.md)
+- [Traders](https://docs.mav.xyz/guides/traders.md): Here you can find everything you need to know about how to trade on Maverick.
+- [How to Make a Swap](https://docs.mav.xyz/guides/traders/how-to-make-a-swap.md): Here you can find step-by-step instructions on how to execute a swap on Maverick.
+- [Liquidity Providers](https://docs.mav.xyz/guides/liquidity-providers.md): Here you can find step-by-step guides on depositing liquidity and deploying pools on Maverick. In other words, everything you need to know about acting as a liquidity provider.
+- [Understanding Liquidity Provision](https://docs.mav.xyz/guides/liquidity-providers/understanding-liquidity-provision.md): This page explains the fundamental ideas behind liquidity provision in Maverick AMM.
+- [Understanding Modes](https://docs.mav.xyz/guides/liquidity-providers/understanding-modes.md): This page explains the four Pool Modes available to LPs in Maverick AMM.
+- [How to Add Liquidity](https://docs.mav.xyz/guides/liquidity-providers/how-to-add-liquidity.md): This page offers step-by-step instructions on how to provide liquidity to a Maverick Pool.
+- [How to Deploy a New Pool](https://docs.mav.xyz/guides/liquidity-providers/how-to-deploy-a-new-pool.md): This section will walk you through the additional steps required to deploy a new pool.
+- [How to Check Position Balances](https://docs.mav.xyz/guides/liquidity-providers/how-to-check-position-balances.md): This page explains different methods to check the balance(s) of tokens in your liquidity position.
+- [How to Manage Liquidity in a Pool](https://docs.mav.xyz/guides/liquidity-providers/how-to-manage-liquidity-in-a-pool.md): This page explains how to add or remove liquidity to or from an existing position in a Maverick pool, including how to close your position entirely.
+- [How to Migrate from V1 to V2](https://docs.mav.xyz/guides/liquidity-providers/how-to-migrate-from-v1-to-v2.md)
+- [Understanding Permanent Loss](https://docs.mav.xyz/guides/liquidity-providers/understanding-permanent-loss.md): This page uses an extended example to explain the risks of Permanent Loss, especially using Mode Both.
+- [Liquidity Strategies](https://docs.mav.xyz/guides/liquidity-providers/liquidity-strategies.md): This page explores some of the ways an LP might use Maverick.
+- [Incentives](https://docs.mav.xyz/guides/incentives.md): In this section you will find information about Maverick's incentive mechanisms.
+- [Understanding Boosted Positions](https://docs.mav.xyz/guides/incentives/understanding-boosted-positions.md): This page explains the basic concept of Boosted Positions.
+- [Understanding Incentives](https://docs.mav.xyz/guides/incentives/understanding-incentives.md): This page gives an overview of the Maverick incentives and rewards system.
+- [How to Join a Boosted Position](https://docs.mav.xyz/guides/incentives/how-to-join-a-boosted-position.md): This page will guide you through the process of joining a Boosted Position.
+- [How to Create a Boosted Position](https://docs.mav.xyz/guides/incentives/how-to-create-a-boosted-position.md): This page will explain how to create a new Boosted Position on Maverick.
+- [How to Manage a Boosted Position](https://docs.mav.xyz/guides/incentives/how-to-manage-a-boosted-position.md): This page explains how to manage a Boosted Position, including claiming rewards and removing your liquidity.
+- [How to Add Incentives](https://docs.mav.xyz/guides/incentives/how-to-add-incentives.md): This page explains how to add incentives to a Boosted Position.
+- [veFlywheel](https://docs.mav.xyz/guides/veflywheel.md): This section collects articles intended to help users understand and use Maverick's veFlywheel.
+- [veFlywheel Basics](https://docs.mav.xyz/guides/veflywheel/veflywheel-basics.md)
+- [Guide to veFlywheel Emissions](https://docs.mav.xyz/guides/veflywheel/guide-to-veflywheel-emissions.md): This page is intended to help both LPs and projects understand their rewards and emissions received through the veFlywheel.
+- [How to Vote to Direct Emissions](https://docs.mav.xyz/guides/veflywheel/how-to-vote-to-direct-emissions.md)
+- [Advanced Tutorials](https://docs.mav.xyz/guides/advanced-tutorials.md): This section provides guides to using Maverick for specific use-cases. Nothing in this section should be understood to constitute financial advice.
+- [Single-Sided Incentives](https://docs.mav.xyz/guides/advanced-tutorials/single-sided-incentives.md): This tutorial will walk you through how to use Boosted Positions to incentivize one side of a liquidity pair.
+- [Contract Addresses](https://docs.mav.xyz/technical-reference/contract-addresses.md)
+- [V1 Contract Addresses](https://docs.mav.xyz/technical-reference/contract-addresses/v1-contract-addresses.md): This page lists the Maverick contract addresses on each chain.
+- [V2 Contract Addresses](https://docs.mav.xyz/technical-reference/contract-addresses/v2-contract-addresses.md)
+- [Maverick V1](https://docs.mav.xyz/technical-reference/maverick-v1.md): This section collects technical information related to Maverick V1.
+- [V1  Contracts](https://docs.mav.xyz/technical-reference/maverick-v1/v1-contracts.md)
+- [Router](https://docs.mav.xyz/technical-reference/maverick-v1/v1-contracts/router.md): This documentation provides an overview of the IRouter.sol. This contract defines various functions and structs used for interacting with the Maverick AMM.
+- [Pool](https://docs.mav.xyz/technical-reference/maverick-v1/v1-contracts/pool.md): This documentation provides an overview of the IPool.sol. This contract defines the functions and events for interacting with a liquidity pool in Maverick AMM.
+- [Factory](https://docs.mav.xyz/technical-reference/maverick-v1/v1-contracts/factory.md): This documentation provides an overview of the IFactory.sol. This contract defines the functions and events for creating and managing pools on Maverick AMM.
+- [SlimRouter](https://docs.mav.xyz/technical-reference/maverick-v1/v1-contracts/slimrouter.md): This documentation provides an overview of the ISlimRouter.sol contract, which defines the functions & events for conducting token swaps & managing token balances. The IRouter inherits this contract.
+- [Maverick V2](https://docs.mav.xyz/technical-reference/maverick-v2.md): This section collects technical information relevant to Maverick V2.
+- [V2 Contracts](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts.md)
+- [Maverick V2 Common Contracts](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts.md)
+- [base](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/base.md)
+- [IMulticall](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/base/imulticall.md)
+- [IPayableMulticall](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/base/ipayablemulticall.md)
+- [Multicall](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/base/multicall.md)
+- [PayableMulticall](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/base/payablemulticall.md)
+- [interfaces](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces.md)
+- [IMaverickV2AddLiquidityCallback](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces/imaverickv2addliquiditycallback.md)
+- [IMaverickV2Factory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces/imaverickv2factory.md)
+- [IMaverickV2FactoryAdmin](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces/imaverickv2factoryadmin.md)
+- [IMaverickV2FlashLoanCallback](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces/imaverickv2flashloancallback.md)
+- [IMaverickV2Pool](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces/imaverickv2pool.md)
+- [IMaverickV2PoolAdmin](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces/imaverickv2pooladmin.md)
+- [IMaverickV2SwapCallback](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/interfaces/imaverickv2swapcallback.md)
+- [libraries](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/libraries.md)
+- [ArrayOperations](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/libraries/arrayoperations.md)
+- [Constants](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/libraries/constants.md)
+- [Math](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/libraries/math.md)
+- [PoolLib](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/libraries/poollib.md)
+- [TickMath](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/libraries/tickmath.md)
+- [TransferLib](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-common-contracts/libraries/transferlib.md)
+- [Maverick V2 AMM Contracts](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts.md)
+- [poollib](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/poollib.md)
+- [Bin](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/poollib/bin.md)
+- [Delta](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/poollib/delta.md)
+- [Deployer](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/poollib/deployer.md)
+- [DeployerPermissioned](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/poollib/deployerpermissioned.md)
+- [SwapMath](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/poollib/swapmath.md)
+- [Twa](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/poollib/twa.md)
+- [MaverickV2Factory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/maverickv2factory.md)
+- [MaverickV2Pool](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/maverickv2pool.md)
+- [MaverickV2PoolPermissioned](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-amm-contracts/maverickv2poolpermissioned.md)
+- [Maverick V2 Reward Contracts](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts.md)
+- [interfaces](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces.md)
+- [IMaverickV2IncentiveMatcher](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2incentivematcher.md)
+- [IMaverickV2IncentiveMatcherFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2incentivematcherfactory.md)
+- [IMaverickV2Reward](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2reward.md)
+- [IMaverickV2RewardFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2rewardfactory.md)
+- [IMaverickV2RewardRouter](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2rewardrouter.md)
+- [IMaverickV2RewardVault](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2rewardvault.md)
+- [IMaverickV2VotingEscrowBase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2votingescrowbase.md)
+- [IMaverickV2VotingEscrow](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2votingescrow.md)
+- [IMaverickV2VotingEscrowFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2votingescrowfactory.md)
+- [IMaverickV2VotingEscrowLens](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2votingescrowlens.md)
+- [IMaverickV2VotingEscrowWSync](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/interfaces/imaverickv2votingescrowwsync.md)
+- [libraries](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/libraries.md)
+- [IncentiveMatcherDeployer](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/libraries/incentivematcherdeployer.md)
+- [RewardDeployer](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/libraries/rewarddeployer.md)
+- [VotingEscrowDeployer](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/libraries/votingescrowdeployer.md)
+- [VotingEscrowWSyncDeployer](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/libraries/votingescrowwsyncdeployer.md)
+- [rewardbase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/rewardbase.md)
+- [IRewardAccounting](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/rewardbase/irewardaccounting.md)
+- [RewardAccounting](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/rewardbase/rewardaccounting.md)
+- [votingescrowbase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/votingescrowbase.md)
+- [HistoricalBalance](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/votingescrowbase/historicalbalance.md)
+- [IHistoricalBalance](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/votingescrowbase/ihistoricalbalance.md)
+- [ILegacyVeMav](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/votingescrowbase/ilegacyvemav.md)
+- [VotingEscrow](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/votingescrowbase/votingescrow.md)
+- [MaverickV2IncentiveMatcher](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2incentivematcher.md)
+- [MaverickV2IncentiveMatcherFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2incentivematcherfactory.md)
+- [MaverickV2Reward](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2reward.md)
+- [MaverickV2RewardFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2rewardfactory.md)
+- [MaverickV2RewardRouter](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2rewardrouter.md)
+- [MaverickV2RewardVault](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2rewardvault.md)
+- [MaverickV2VotingEscrow](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2votingescrow.md)
+- [MaverickV2VotingEscrowFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2votingescrowfactory.md)
+- [MaverickV2VotingEscrowLens](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2votingescrowlens.md)
+- [MaverickV2VotingEscrowWSync](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-reward-contracts/maverickv2votingescrowwsync.md)
+- [Maverick V2 Supplemental Contracts](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts.md)
+- [base](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/base.md)
+- [Checks](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/base/checks.md)
+- [IChecks](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/base/ichecks.md)
+- [IMigrateBins](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/base/imigratebins.md)
+- [MigrateBins](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/base/migratebins.md)
+- [boostedpositionbase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/boostedpositionbase.md)
+- [BoostedPositionBase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/boostedpositionbase/boostedpositionbase.md)
+- [IBoostedPositionBase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/boostedpositionbase/iboostedpositionbase.md)
+- [ImmutableArrayGetter](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/boostedpositionbase/immutablearraygetter.md)
+- [interfaces](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces.md)
+- [IMaverickV2BoostedPosition](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/imaverickv2boostedposition.md)
+- [IMaverickV2BoostedPositionFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/imaverickv2boostedpositionfactory.md)
+- [IMaverickV2LiquidityManager](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/imaverickv2liquiditymanager.md)
+- [IMaverickV2PoolLens](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/imaverickv2poollens.md)
+- [IMaverickV2Position](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/imaverickv2position.md)
+- [IMaverickV2Quoter](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/imaverickv2quoter.md)
+- [IMaverickV2Router](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/imaverickv2router.md)
+- [IPositionImage](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/interfaces/ipositionimage.md)
+- [libraries](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries.md)
+- [BoostedPositionDeployerDynamic](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries/boostedpositiondeployerdynamic.md)
+- [BoostedPositionDeployerStatic](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries/boostedpositiondeployerstatic.md)
+- [BytesLib](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries/byteslib.md)
+- [LiquidityUtilities](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries/liquidityutilities.md)
+- [PackLib](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries/packlib.md)
+- [Path](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries/path.md)
+- [PoolInspection](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/libraries/poolinspection.md)
+- [liquiditybase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/liquiditybase.md)
+- [ArgPacker](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/liquiditybase/argpacker.md)
+- [IArgPacker](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/liquiditybase/iargpacker.md)
+- [paymentbase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase.md)
+- [IERC20PermitAllowed](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/ierc20permitallowed.md)
+- [IPayment](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/ipayment.md)
+- [ISelfPermit](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/iselfpermit.md)
+- [IState](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/istate.md)
+- [IWETH9](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/iweth9.md)
+- [Payment](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/payment.md)
+- [SelfPermit](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/selfpermit.md)
+- [State](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/paymentbase/state.md)
+- [positionbase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/positionbase.md)
+- [INft](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/positionbase/inft.md)
+- [Nft](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/positionbase/nft.md)
+- [routerbase](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase.md)
+- [CallbackOperations](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase/callbackoperations.md)
+- [ExactOutputSlim](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase/exactoutputslim.md)
+- [ICallbackOperations](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase/icallbackoperations.md)
+- [IExactOutputSlim](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase/iexactoutputslim.md)
+- [IPushOperations](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase/ipushoperations.md)
+- [IRouterErrors](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase/iroutererrors.md)
+- [PushOperations](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/routerbase/pushoperations.md)
+- [MaverickV2BoostedPositionDynamic](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2boostedpositiondynamic.md)
+- [MaverickV2BoostedPositionFactory](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2boostedpositionfactory.md)
+- [MaverickV2BoostedPositionStatic](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2boostedpositionstatic.md)
+- [MaverickV2LiquidityManager](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2liquiditymanager.md)
+- [MaverickV2PoolLens](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2poollens.md)
+- [MaverickV2Position](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2position.md)
+- [MaverickV2Quoter](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2quoter.md)
+- [MaverickV2Router](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/maverickv2router.md)
+- [PositionImage](https://docs.mav.xyz/technical-reference/maverick-v2/v2-contracts/maverick-v2-supplemental-contracts/positionimage.md)
+- [V2 API Documentation](https://docs.mav.xyz/technical-reference/maverick-v2/v2-api-documentation.md)
+- [V2 Testnet Guide](https://docs.mav.xyz/technical-reference/maverick-v2/v2-testnet-guide.md)
+- [Get Sepolia ETH & Test Tokens](https://docs.mav.xyz/technical-reference/maverick-v2/v2-testnet-guide/get-sepolia-eth-and-test-tokens.md)
+- [How to Create a Boosted Position in V2](https://docs.mav.xyz/technical-reference/maverick-v2/v2-testnet-guide/how-to-create-a-boosted-position-in-v2.md)
+- [How to Add & Match Incentives](https://docs.mav.xyz/technical-reference/maverick-v2/v2-testnet-guide/how-to-add-and-match-incentives.md)
+- [How to Create a veFlywheel](https://docs.mav.xyz/technical-reference/maverick-v2/v2-testnet-guide/how-to-create-a-veflywheel.md)
+- [Development FAQ](https://docs.mav.xyz/technical-reference/development-faq.md): This page collects frequently asked questions specifically related to developin on Maverick's contracts.
+- [Finding LP Balances](https://docs.mav.xyz/technical-reference/finding-lp-balances.md): This page explains how to make contract calls to discover the token reserves held by Maverick LPs.
+- [MAV Token & Tokenomics](https://docs.mav.xyz/mav-token/mav-token-and-tokenomics.md)
+- [veMAV & MAV Staking](https://docs.mav.xyz/mav-token/vemav-and-mav-staking.md)
+- [How to Stake MAV](https://docs.mav.xyz/mav-token/how-to-stake-mav.md): This page explains how to use the dApp to stake MAV and get a veMAV balance.
+- [Syncing V1 veMAV](https://docs.mav.xyz/mav-token/syncing-v1-vemav.md)
+- [Airdrop Information](https://docs.mav.xyz/mav-token/airdrop-information.md): This section collects information related to MAV token airdrops.
+- [Maverick Ecosystem Rewards Pre-Season Airdrop](https://docs.mav.xyz/mav-token/airdrop-information/maverick-ecosystem-rewards-pre-season-airdrop.md)
+- [Maverick Governance & S1 Airdrops](https://docs.mav.xyz/mav-token/airdrop-information/maverick-governance-and-s1-airdrops.md)
+- [Frequently Asked Questions](https://docs.mav.xyz/further-information/frequently-asked-questions.md)
+- [Glossary](https://docs.mav.xyz/further-information/glossary.md): On this page you will find a glossary of terms used elsewhere in the docs.
+- [Security](https://docs.mav.xyz/further-information/security.md)
+- [Maverick Wallets](https://docs.mav.xyz/further-information/maverick-wallets.md)
+- [Dune Analytics](https://docs.mav.xyz/further-information/dune-analytics.md)
+- [Rebasing Tokens](https://docs.mav.xyz/further-information/rebasing-tokens.md): This page explains the unique risks of LPing rebasing tokens.
+- [Restricted Territories](https://docs.mav.xyz/further-information/restricted-territories.md)

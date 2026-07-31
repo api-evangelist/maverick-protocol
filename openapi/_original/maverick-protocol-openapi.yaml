@@ -1,0 +1,84 @@
+# generated: '2026-07-20'
+# method: generated
+# source: https://docs.mav.xyz/technical-reference/maverick-v2/v2-api-documentation
+#         (field/param table) confirmed against live responses from https://v2-api.mav.xyz
+openapi: 3.1.0
+info:
+  title: Maverick V2 Data API
+  version: '2.0'
+  description: >-
+    Read-only market-data API for the Maverick Protocol V2 decentralized
+    exchange (AMM). Returns 24-hour pricing and volume statistics for every
+    market pair on a given chain. Documented at
+    https://docs.mav.xyz/technical-reference/maverick-v2/v2-api-documentation
+    and served from https://v2-api.mav.xyz. Public, no authentication.
+  contact:
+    name: Maverick Protocol
+    url: https://www.mav.xyz/
+  license:
+    name: See Maverick Protocol Terms of Service
+    url: https://www.mav.xyz/
+servers:
+- url: https://v2-api.mav.xyz
+  description: Maverick V2 hosted data API
+paths:
+  /api/latest/tickers:
+    get:
+      operationId: getTickers
+      summary: Latest 24h market tickers
+      description: >-
+        Market-related statistics for all markets on the specified chain for
+        the last 24 hours. Response schema follows the standard exchange
+        "tickers" convention (base/target currency contract addresses, last
+        price, volumes, pool id, USD liquidity).
+      parameters:
+      - name: chainId
+        in: query
+        required: true
+        description: >-
+          EVM chain id in decimal (e.g. 1 = Ethereum mainnet, 8453 = Base).
+          Mandatory.
+        schema:
+          type: integer
+          example: 1
+      responses:
+        '200':
+          description: Array of market tickers for the requested chain.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Ticker'
+components:
+  schemas:
+    Ticker:
+      type: object
+      description: 24-hour market statistics for a single Maverick V2 pool/pair.
+      properties:
+        ticker_id:
+          type: string
+          description: >-
+            Identifier of a ticker with delimiter separating the base and
+            target contract addresses.
+        base_currency:
+          type: string
+          description: Contract address of the base cryptoasset.
+        target_currency:
+          type: string
+          description: Contract address of the target cryptoasset.
+        last_price:
+          type: string
+          description: Last transacted price of base currency in terms of target currency.
+        base_volume:
+          type: string
+          description: 24-hour trading volume for the pair, denominated in base.
+        target_volume:
+          type: string
+          description: 24-hour trading volume for the pair, denominated in target.
+        pool_id:
+          type: string
+          description: Pool/pair address or unique identifier.
+        liquidity_in_usd:
+          type: string
+          description: Pool liquidity in USD.

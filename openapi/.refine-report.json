@@ -1,0 +1,14 @@
+{
+  "provider": "maverick-protocol",
+  "sources": [
+    "maverick-protocol-latest-api-openapi.yml"
+  ],
+  "outputs": [
+    "maverick-protocol-latest-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

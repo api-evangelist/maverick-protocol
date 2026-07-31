@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of provider hosts for standard /.well-known/ and plugin descriptors
+note: >-
+  No real well-known descriptors found. app.mav.xyz returns HTTP 200 for every
+  path but serves the SPA index.html (content-type text/html) — treated as a
+  catch-all false positive, not a genuine descriptor, and not saved.
+probes:
+- host: www.mav.xyz
+  paths:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: docs.mav.xyz
+  paths:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+- host: v2-api.mav.xyz
+  paths:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+- host: app.mav.xyz
+  note: all /.well-known/ paths return 200 but serve SPA HTML shell (false positive)
+files: []
