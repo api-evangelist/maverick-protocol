@@ -66,6 +66,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: AgentSkill
+  url: skills/maverick-protocol-market-tickers.md
+- type: MCPServer
+  url: mcp/maverick-protocol-mcp.yml
 - type: LLMsTxt
   url: llms/maverick-protocol-llms.txt
 - type: WellKnown
