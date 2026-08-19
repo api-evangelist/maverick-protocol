@@ -1,14 +1,11 @@
 generated: '2026-07-20'
 method: derived
 status: candidate
-source: >-
-  Derived from openapi/maverick-protocol-openapi.yaml operations. No official
-  hosted/remote Maverick MCP server was found via docs (docs.mav.xyz) or the
-  maverickprotocol GitHub org as of this pass.
+source: Derived from openapi/maverick-protocol-openapi.yaml operations. No official hosted/remote Maverick
+  MCP server was found via docs (docs.mav.xyz) or the maverickprotocol GitHub org as of this pass.
 name: Maverick V2 Data (candidate)
-description: >-
-  Candidate MCP tool surface mapped 1:1 from the documented Maverick V2 Data
-  API. Not an official Maverick MCP server; a derivation for evaluation.
+description: Candidate MCP tool surface mapped 1:1 from the documented Maverick V2 Data API. Not an official
+  Maverick MCP server; a derivation for evaluation.
 transport: none
 tools:
 - name: get_tickers
@@ -21,3 +18,9 @@ tools:
     required: true
     type: integer
     description: EVM chain id in decimal (e.g. 1 = Ethereum, 8453 = Base).
+deployment:
+  mode: none
+  verified: derived
+  tools: 1
+  checked: '2026-08-12'
+  source: catalog MCP census

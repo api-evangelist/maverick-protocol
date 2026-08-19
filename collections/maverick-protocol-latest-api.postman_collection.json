@@ -1,0 +1,118 @@
+{
+  "item": [
+    {
+      "id": "4a09b6d2-8d5e-4cff-acb2-1fc94ca3d7b7",
+      "name": "Latest",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "1a0a2e8f-ed84-4044-9300-af3df2cfb871",
+          "name": "Latest 24h market tickers",
+          "request": {
+            "name": "Latest 24h market tickers",
+            "description": {
+              "content": "Market-related statistics for all markets on the specified chain for the last 24 hours. Response schema follows the standard exchange \"tickers\" convention (base/target currency contract addresses, last price, volumes, pool id, USD liquidity).",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "api",
+                "latest",
+                "tickers"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "chainId",
+                  "value": "<integer>",
+                  "description": "(Required) EVM chain id in decimal (e.g. 1 = Ethereum mainnet, 8453 = Base). Mandatory."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "75352890-ad48-4186-a8cf-f51cc5133700",
+              "name": "Array of market tickers for the requested chain.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "api",
+                    "latest",
+                    "tickers"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "chainId",
+                      "value": "1"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"ticker_id\": \"string\",\n    \"base_currency\": \"string\",\n    \"target_currency\": \"string\",\n    \"last_price\": \"string\",\n    \"base_volume\": \"string\",\n    \"target_volume\": \"string\",\n    \"pool_id\": \"string\",\n    \"liquidity_in_usd\": \"string\"\n  },\n  {\n    \"ticker_id\": \"string\",\n    \"base_currency\": \"string\",\n    \"target_currency\": \"string\",\n    \"last_price\": \"string\",\n    \"base_volume\": \"string\",\n    \"target_volume\": \"string\",\n    \"pool_id\": \"string\",\n    \"liquidity_in_usd\": \"string\"\n  }\n]",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://v2-api.mav.xyz",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "1d9ce478-ca63-49fa-9581-e70029b8dc7e",
+    "name": "Maverick V2 Data Latest API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Read-only market-data API for the Maverick Protocol V2 decentralized exchange (AMM). Returns 24-hour pricing and volume statistics for every market pair on a given chain. Documented at https://docs.mav.xyz/technical-reference/maverick-v2/v2-api-documentation and served from https://v2-api.mav.xyz. Public, no authentication.\n\nContact Support:\n Name: Maverick Protocol",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Maverick V2 Data Latest API",
+    "version": "2.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Latest",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Latest 24h market tickers",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://v2-api.mav.xyz/api/latest/tickers",
+            "params": [
+              {
+                "name": "chainId",
+                "value": "",
+                "type": "query",
+                "description": "EVM chain id in decimal (e.g. 1 = Ethereum mainnet, 8453 = Base). Mandatory."
+              }
+            ]
+          },
+          "docs": "Market-related statistics for all markets on the specified chain for the last 24 hours. Response schema follows the standard exchange \"tickers\" convention (base/target currency contract addresses, last price, volumes, pool id, USD liquidity)."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
