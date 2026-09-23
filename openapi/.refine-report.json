@@ -1,7 +1,7 @@
 {
   "provider": "maverick-protocol",
   "sources": [
-    "maverick-protocol-latest-api-openapi.yml"
+    "_original/maverick-protocol-openapi.yaml"
   ],
   "outputs": [
     "maverick-protocol-latest-api-openapi.yml"
@@ -9,6 +9,14 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "maverick-protocol-openapi.yaml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "maverick-protocol-openapi.yaml: tagged paths GET /api/latest/tickers -> Latest",
+    "maverick-protocol-openapi.yaml: declared missing tag: Latest",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "maverick-protocol-latest-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
