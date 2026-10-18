@@ -52,6 +52,15 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
+- Cryptocurrency
+- DeFi
+- Decentralized Exchange
+- AMM
+- Blockchain
+- Market Data
+- Liquidity
+tags_raw:
+- Company
 - Crypto
 - DeFi
 - DEX
